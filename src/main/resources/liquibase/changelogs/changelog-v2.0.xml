@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.22.xsd
+      http://www.liquibase.org/xml/ns/pro
+      http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.22.xsd">
+
+    <changeSet author="leonardo.freitas" id="1">
+        <insert tableName="autorizacaoprocedimento">
+            <column name="id_procedimento" valueNumeric="1234"/>
+            <column name="idade" valueNumeric="10"/>
+            <column name="sexo" valueNumeric="1"/>
+            <column name="permitido" valueBoolean="false"/>
+        </insert>
+    </changeSet>
+
+    <changeSet author="leonardo.freitas" id="2">
+        <insert tableName="autorizacaoprocedimento">
+            <column name="id_procedimento" valueNumeric="4567"/>
+            <column name="idade" valueNumeric="20"/>
+            <column name="sexo" valueNumeric="1"/>
+            <column name="permitido" valueBoolean="true"/>
+        </insert>
+    </changeSet>
+
+    <changeSet author="leonardo.freitas" id="3">
+        <insert tableName="autorizacaoprocedimento">
+            <column name="id_procedimento" valueNumeric="6789"/>
+            <column name="idade" valueNumeric="10"/>
+            <column name="sexo" valueNumeric="2"/>
+            <column name="permitido" valueBoolean="false"/>
+        </insert>
+    </changeSet>
+
+    <changeSet author="leonardo.freitas" id="4">
+        <insert tableName="autorizacaoprocedimento">
+            <column name="id_procedimento" valueNumeric="6789"/>
+            <column name="idade" valueNumeric="10"/>
+            <column name="sexo" valueNumeric="1"/>
+            <column name="permitido" valueBoolean="true"/>
+        </insert>
+    </changeSet>
+
+    <changeSet author="leonardo.freitas" id="5">
+        <insert tableName="autorizacaoprocedimento">
+            <column name="id_procedimento" valueNumeric="1234"/>
+            <column name="idade" valueNumeric="20"/>
+            <column name="sexo" valueNumeric="1"/>
+            <column name="permitido" valueBoolean="true"/>
+        </insert>
+    </changeSet>
+
+    <changeSet author="leonardo.freitas" id="6">
+        <insert tableName="autorizacaoprocedimento">
+            <column name="id_procedimento" valueNumeric="4567"/>
+            <column name="idade" valueNumeric="30"/>
+            <column name="sexo" valueNumeric="2"/>
+            <column name="permitido" valueBoolean="true"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
