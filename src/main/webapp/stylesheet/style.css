@@ -1,3 +1,74 @@
+header {
+    background: #bbbbbb;
+    padding: 20px 0;
+    position: initial;
+}
+
+.navigation {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: initial;
+    top: 110px;
+    right: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #1A1A60;
+    text-decoration: underline;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+mbody {
+    position: absolute;
+    margin-top: 80px;
+    width: 100%;
+}
+
+resultbody {
+    margin-top: 300px;
+    position: absolute;
+    width: 70%;
+}
+
+.procedimentonaopermitido {
+    padding-left: 100px;
+    margin-top: 300px;
+    position: absolute;
+    width: 70%;
+}
+
+.motivoprocedimentonaopermitido {
+    padding-left: 15px;
+    list-style: disc;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;

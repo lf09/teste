@@ -15,6 +15,12 @@ public enum SexoPaciente {
         this.value = value;
     }
 
+    public static int getIndexByValue(String pValue) throws NoSuchElementException {
+        return Arrays.stream(SexoPaciente.values())
+                .filter(oEnum -> oEnum.value.equals(pValue))
+                .findFirst().get().index;
+    }
+
     public static String getValueByIndex(int index) throws NoSuchElementException {
         return Arrays.stream(SexoPaciente.values())
                 .filter(oEnum -> oEnum.index == index)

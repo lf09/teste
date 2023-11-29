@@ -14,8 +14,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet(name = "listaProcedimento", value = "/lista-procedimento")
-public class ListaProcedimento extends HttpServlet {
+@WebServlet(name = "listaProcedimentoController", value = "/lista-procedimento")
+public class ListaProcedimentoController extends HttpServlet {
 
     @Inject
     private ProcedimentoService procedimentoService;
