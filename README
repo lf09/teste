@@ -1,1 +1,10 @@
 Este é um projeto Java EE que gera um arquivo .war para ser implantado no servidor WildFly.
+
+Projeto Desenvolvido utilizando, WildFly 30.0.0.Final
+JDK 17
+
+Por padrão servidor Wildfly pode estar usando versão 11 do Java,
+    sendo necessário editar o JAVA_HOME em standalone.conf, antes de adicionar o .war no deployment.
+
+Caminho padrão para acessar uma das telas da aplicação:
+    http://localhost:8080/teste-1.0/consulta-procedimento
