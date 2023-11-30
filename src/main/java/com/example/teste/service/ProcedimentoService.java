@@ -14,7 +14,6 @@ import jakarta.transaction.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Stateless
 public class ProcedimentoService {
@@ -44,7 +43,6 @@ public class ProcedimentoService {
         } catch (NoResultException | EJBTransactionRolledbackException ex) {
             throw new ResultadoNaoEncontradoException(ex.getMessage());
         } catch (Exception ex) {
-//            System.out.println(ex.getMessage());
             throw ex;
         }
     }
